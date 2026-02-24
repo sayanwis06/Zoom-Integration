@@ -1,0 +1,30 @@
+{
+    "name": "Zoom Integration",
+    "description": "Integrate Zoom meetings with LMS courses",
+    "version": "1.1.0",
+    "ZOOM_ACCOUNT_ID": "",
+    "ZOOM_CLIENT_ID": "",
+    "ZOOM_CLIENT_SECRET": "",
+    "metadata": {
+        "fields": {
+            "ZOOM_ACCOUNT_ID": {
+                "type": "text",
+                "label": "ZOOM_ACCOUNT_ID",
+                "placeholder": "Enter your Zoom Account ID",
+                "required": true
+            },
+            "ZOOM_CLIENT_ID": {
+                "type": "text",
+                "label": "ZOOM_CLIENT_ID",
+                "placeholder": "Enter your Zoom Client ID",
+                "required": true
+            },
+            "ZOOM_CLIENT_SECRET": {
+                "type": "password",
+                "label": "ZOOM_CLIENT_SECRET",
+                "placeholder": "Enter your Zoom Client Secret",
+                "required": true
+            }
+        }
+    }
+}
